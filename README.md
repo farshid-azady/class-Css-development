@@ -57,14 +57,14 @@
 - ## Local
 - 1- local impeliment in your computer
 
-- @font-face {
-  font-family: 'Vazirmatn';
-  src: url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
-  url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2-variations');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-  }
+-  @font-face {
+    font-family: 'Vazirmatn';
+    src: url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+    url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+-  }
 -
 
 ---
