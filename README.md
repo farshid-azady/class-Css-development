@@ -18,7 +18,7 @@
 - #### A vendor prefixes is a special prefix added to a CSS property. Each rendering engine has it's own prefix which will only apply the property to that particular browser. Vender Prefixes in 2017. Much less necessary, but still used. if you use the Old Browser Like IE6/IE7/IE8 then you should add this vendor prefixes.
 
 - ### Directions
-  -  - directions : the name of our custom class with vendor prefix
+  - - directions : the name of our custom class with vendor prefix
   - .directions{
   -         writing-mode: vertical-lr;
   -        -webkit-writing-mode: vertical-lr;
@@ -28,7 +28,6 @@
 # Times To practices
 
 - .google-logo{
-  
 -        width: 100px;
 -         height: 100px;
 -        border: 1px solid black;
@@ -50,3 +49,27 @@
 -     Uncomment the following line to apply a filter effect */
 -     filter: brightness(0.8); */
   }
+
+# Font Face Tutorials
+
+- 1- local impeliment in your computer
+
+- @font-face {
+- font-family: 'Vazirmatn';
+- src: url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+-       url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2-variations');
+- font-weight: 100 900;
+- font-style: normal;
+- font-display: swap;
+- }
+
+- 2- CDN impliment without Downloadin in your computer.Means your fonts download from internet
+
+- @font-face {
+- font-family: 'Vazirmatn RD';
+- src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Round-Dots/fonts/webfonts/Vazirmatn-RD[wght].woff2') format('woff2 supports variations'),
+-        url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Round-Dots/fonts/webfonts/Vazirmatn-RD[wght].woff2') format('woff2-variations');
+- font-weight: 100 900;
+- font-style: normal;
+- font-display: swap;
+- }
