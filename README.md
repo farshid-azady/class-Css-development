@@ -94,7 +94,9 @@
 
 ````
 - ### Notice : this is very importany UX
-- font-display: swap in CSS is a property that controls how a web font is displayed while it's loading. 
+- 
+- **font-display: swap** 
+- in CSS is a property that controls how a web font is displayed while it's loading. 
 - When set to swap, it instructs the browser to immediately display text using a fallback font. 
 - while the custom web font is being downloaded. 
 - Once the custom font is loaded, the browser swaps it in, 
