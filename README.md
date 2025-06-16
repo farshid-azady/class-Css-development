@@ -112,7 +112,7 @@
 -  to be incorporated into a single file, rather than having a separate font file for every width,
 -  weight, or style. They let you access all the variations contained in a given font file via CSS.
 -  and a single @font-face reference. This article will give you all you need to know to get you started using variable fonts.
-- ### variable code Example :
+- ### Font-variable code Example :
 ````css
 font-weight: 375;
 
@@ -131,6 +131,7 @@ font-variation-settings: "wght" 375;
 - background-position
 - background-repeat
 - background-size
+
 
 ````
 
