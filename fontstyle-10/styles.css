@@ -1,3 +1,16 @@
+
+  @font-face {
+    font-family: Vazir,'Courier New', Courier, monospace;
+    src: url('./fonts/Vazirmatn-RD-Regular.ttf') format('ttf') ,
+    url('./fonts/Vazirmatn-RD-Regular.woff2') format('woff2');
+
+     font-style: oblique 90deg;
+    font-display: swap;
+
+
+  }
+
+
 body{
     
     

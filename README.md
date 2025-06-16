@@ -59,7 +59,7 @@
 
 ````css
 
--  @font-face {
+  @font-face {
     font-family: 'Vazirmatn';
     src: url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
     url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2-variations');
@@ -89,6 +89,19 @@
   font-display: swap;
  }
 ```
+
+--------------------------------------------------------------------------------------
+
+````
+- ### Notice : this is very importany UX
+- font-display: swap in CSS is a property that controls how a web font is displayed while it's loading. 
+- When set to swap, it instructs the browser to immediately display text using a fallback font. 
+- while the custom web font is being downloaded. 
+- Once the custom font is loaded, the browser swaps it in, 
+- replacing the fallback font. This approach prioritizes immediate content visibility, 
+- preventing the "flash of invisible text" (FOIT) that can occur when a custom font takes time to load, 
+- and instead offers a "flash of unstyled text" (FOUT) as the fallback font is used initially. 
+
 
 
 
