@@ -1,4 +1,4 @@
-# https://github.com/farshid-azady/class-Css
+# https://github.com/farshid-azady/class-Css-development?tab=readme-ov-file
 
 - ##### -white space when we have a space that smaller than our text size, it will be white.
 
@@ -106,7 +106,12 @@
 ````
 
 ````
-## And
+>> ## Variable fonts
+- Variable fonts are an evolution of the OpenType font specification that enables many different variations of a typeface.
+-  to be incorporated into a single file, rather than having a separate font file for every width,
+-  weight, or style. They let you access all the variations contained in a given font file via CSS.
+-  and a single @font-face reference. This article will give you all you need to know to get you started using variable fonts.
+
 ````
 
 

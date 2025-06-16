@@ -1,26 +1,26 @@
+@font-face {
+  font-family: Vazir;
+  src: url("./fonts/Vazirmatn-RD-Regular.ttf") format("ttf"),
+    url("./fonts/Vazirmatn-RD-Regular.woff2") format("woff2");
 
-  @font-face {
-    font-family: Vazir,'Courier New', Courier, monospace;
-    src: url('./fonts/Vazirmatn-RD-Regular.ttf') format('ttf') ,
-    url('./fonts/Vazirmatn-RD-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+  /* font-weight: 900; */
+}
 
-     font-style: oblique 90deg;
-    font-display: swap;
+* {
+  font-family: Vazir;
 
-
-  }
-
-
-body{
-    
+}
+.custom-font{
+    /* font-size: 1.2rem; */
+    /* font-weight: 900; */
     
 
 }
-
 
 .center {
   text-align: center;
   border-bottom: 3px solid rgb(0, 22, 0);
   margin: 0 auto;
-
 }
