@@ -67,17 +67,18 @@
     font-style: normal;
     font-display: swap;
   }
+  ````
  
 
 
+- ## CDN
 
-
- ## CDN
+ 
  
 
- - 2- CDN impliment without Downloadin in your computer.Means your fonts download from internet
+ -    2- CDN impliment without Downloadin in your computer.Means your fonts download from internet
 
-
+````css
 
  @font-face {
   font-family: 'Vazirmatn RD';
@@ -87,8 +88,7 @@
   font-style: normal;
   font-display: swap;
  }
-````
+```
 
----
 
--
+
