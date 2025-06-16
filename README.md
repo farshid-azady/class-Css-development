@@ -121,6 +121,19 @@ font-variation-settings: "wght" 375;
 
 ````
 
+````
+> # BackGroud Property in CSS
+- background-color
+- background-image
+- background-attachment
+- background-clip
+- background-origin
+- background-position
+- background-repeat
+- background-size
+
+````
+
 
 
 
