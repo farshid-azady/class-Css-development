@@ -56,6 +56,7 @@
 
 - ## Local
 - 1- local impeliment in your computer
+```css
 
 -  @font-face {
     font-family: 'Vazirmatn';
@@ -65,6 +66,7 @@
     font-style: normal;
     font-display: swap;
 -  }
+- ```
 -
 
 ---
