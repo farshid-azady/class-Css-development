@@ -67,10 +67,10 @@
 - 2- CDN impliment without Downloadin in your computer.Means your fonts download from internet
 
 -    @font-face {
-  font-family: 'Vazirmatn RD';
-  src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Round-Dots/fonts/webfonts/Vazirmatn-RD[wght].woff2') format('woff2 supports variations'),
+-   font-family: 'Vazirmatn RD';
+-   src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Round-Dots/fonts/webfonts/Vazirmatn-RD[wght].- woff2') format('woff2 supports variations'),
        url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Round-Dots/fonts/webfonts/Vazirmatn-RD[wght].woff2') format('woff2-variations');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
+-   font-weight: 100 900;
+-   font-style: normal;
+-   font-display: swap;
+- }
