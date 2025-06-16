@@ -52,6 +52,7 @@
   }
 
 # Font Face Tutorials
+- ## Local
 - 1- local impeliment in your computer
 
 - @font-face {
@@ -75,3 +76,4 @@
 -   font-style: normal;
 -   font-display: swap;
 - }
+- ---------------------------------------------------------------------------------
