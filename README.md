@@ -93,9 +93,8 @@
 --------------------------------------------------------------------------------------
 
 ````
-- ### Notice : this is very importany UX
-- 
-- **font-display: swap** 
+- ### Notice : this is very importany UX 
+>  **__font-display__: swap** 
 - in CSS is a property that controls how a web font is displayed while it's loading. 
 - When set to swap, it instructs the browser to immediately display text using a fallback font. 
 - while the custom web font is being downloaded. 
@@ -104,6 +103,7 @@
 - preventing the "flash of invisible text" (FOIT) that can occur when a custom font takes time to load, 
 - and instead offers a "flash of unstyled text" (FOUT) as the fallback font is used initially. 
 
+------------------------------------------------------------------------------------
 
 
 
